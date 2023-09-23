@@ -1,0 +1,31 @@
+_id: req_e0818d98b2d243f296934ab7df382af4
+type: Request
+parentId: fld_f0507a8fff054bf1825fbb192233a323
+modified: 1695458478847
+created: 1695458478847
+url: http://127.0.0.1:8000/api/product/order
+name: get orders (profile)
+description: ""
+method: GET
+body:
+  params:
+    - type: text
+      name: customer_id
+      disabled: true
+      value: "27227"
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478847
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,43 @@
+_id: req_4d6153b8fbdd41d0b762e3ba8eb1abc5
+type: Request
+parentId: fld_5181c2440ebd40cfa45579483c7f288a
+modified: 1695458478937
+created: 1695458478937
+url: http://127.0.0.1:8000/api/payment/go-to-gateway/
+name: go-to-gateway
+description: ""
+method: GET
+body:
+  params:
+    - type: text
+      name: company_id
+      disabled: false
+      value: "2"
+    - type: text
+      name: amount
+      disabled: false
+      value: "100000"
+    - type: text
+      name: gateway
+      disabled: false
+      value: BMI
+    - type: text
+      name: mobile
+      disabled: false
+      value: "09010954366"
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjg4NDU4MDA1LCJpYXQiOjE2ODgzNzE2MDUsImp0aSI6ImU0Mzg2YzgwNWFhODQ0ZTQ5ODkzNmNkMjIxYzYzNDNiIiwidXNlciI6MTkxOTl9.mPUUsl8_ADvJMc4ZYy5DLABghUwNVKqNR7ZyE_VV3tY
+  prefix: ""
+metaSortKey: -1695458478937
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

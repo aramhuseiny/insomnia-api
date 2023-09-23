@@ -1,0 +1,49 @@
+_id: req_97776f1c3d194a858f5ad258b99083f6
+type: Request
+parentId: fld_f275847afe1044238b4a381c77c22caa
+modified: 1695458478866
+created: 1695458478866
+url: http://127.0.0.1:8000/api/product
+name: get_all_products
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: page
+    value: "1"
+    disabled: true
+  - name: category
+    value: category_name
+    disabled: true
+  - name: date_range
+    value: 2023-09-06 03:44:01,2023-09-06 03:44:01
+    disabled: true
+  - name: start_date
+    value: 2023-09-06 03:44:01
+    disabled: true
+  - name: end_date
+    value: 2023-09-06 03:44:01
+    disabled: true
+  - name: sort_column
+    value: colum_name
+    disabled: true
+  - name: sort_type
+    value: acs or desc
+    disabled: true
+  - name: keyword
+    value: key word
+    disabled: true
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjgzNTI0NDg3LCJpYXQiOjE2ODM0MzgwODcsImp0aSI6ImMxZGM5NjkwNTU3ZDQ2ZDU5NDk4NzBhZjYxMTRjY2ViIiwidXNlcl9pZCI6NTg2NTV9._O46ywjlGtXsC7RsOStXkVA0oHLtFAnITohJTP950JE
+  prefix: ""
+metaSortKey: -1695458478866
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

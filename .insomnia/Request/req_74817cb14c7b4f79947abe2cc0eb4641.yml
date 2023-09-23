@@ -1,0 +1,21 @@
+_id: req_74817cb14c7b4f79947abe2cc0eb4641
+type: Request
+parentId: fld_8f57960b5eea40ec9594dc18194b3798
+modified: 1695458478940
+created: 1695458478940
+url: http://127.0.0.1:8000/api/user/import
+name: import user
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1695458478940
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

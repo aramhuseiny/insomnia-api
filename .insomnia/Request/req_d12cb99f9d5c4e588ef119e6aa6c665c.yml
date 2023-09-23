@@ -1,0 +1,49 @@
+_id: req_d12cb99f9d5c4e588ef119e6aa6c665c
+type: Request
+parentId: fld_a00c72f3b57d440bad80ee2da7af6747
+modified: 1695458478882
+created: 1695458478882
+url: "{{url}}/api/club/action/condition/44/"
+name: upadte condition
+description: ""
+method: PUT
+body:
+  mimeType: ""
+  text: |-
+    [
+         [
+             
+            {
+                "id":132,
+                "condition": 1,
+                "variable": 1,
+                "amount": 30000000,
+                "tag":"A"
+            }
+        ],
+        [
+            {
+                "id":134,
+                "condition": 1,
+                "variable": 1,
+                "amount": 35000000,
+                "tag":"D"
+            }
+        ]
+      
+    ]
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478882
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

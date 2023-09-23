@@ -1,0 +1,26 @@
+_id: req_350d3a71217143b98c77b54cb96e28e8
+type: Request
+parentId: fld_36225e9577b842f3b514aaf28b7aaef6
+modified: 1695458478870
+created: 1695458478870
+url: https://backend.dev.apadana.local/api/send/code/
+name: send_code
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "username": "09184021586"
+    }
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1695458478870
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_42ec7feb9d364fc785b13f3858fae4d1
+type: Request
+parentId: fld_90bcff00bb0b4b8c9db06eb6747e2e65
+modified: 1695458478829
+created: 1695458478829
+url: http://127.0.0.1:8000/api/user/membershiplevel/action
+name: get users with membership action promotion
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1695458478829
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_abfe9469cd8d40acb33fee41eab3e960
+type: Request
+parentId: fld_4186f28e91784d799aed1e0c02eb4b66
+modified: 1695458478924
+created: 1695458478924
+url: "{{url}}/api/promotion/action/condition/7/"
+name: delete condition Copy
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478924
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_6d4e4fc675ff4243a6b25957de6b1714
+type: Request
+parentId: fld_a00c72f3b57d440bad80ee2da7af6747
+modified: 1695458478881
+created: 1695458478881
+url: "{{url}}/api/club/action/condition/"
+name: get all condition action
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478881
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

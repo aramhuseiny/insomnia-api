@@ -1,0 +1,21 @@
+_id: req_cc6832b85b12465ea87899f659d4fa78
+type: Request
+parentId: fld_9f416e8466e84a5d8b506613479c292c
+modified: 1695458478855
+created: 1695458478855
+url: http://127.0.0.1:8000/api/product/import
+name: import product
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1695458478855
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

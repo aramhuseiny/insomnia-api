@@ -1,0 +1,28 @@
+_id: req_0d743c7ab0d041e68231abaa9ee50b5d
+type: Request
+parentId: fld_0b917e252746455d9a1be8f1fdbe9cce
+modified: 1695458478822
+created: 1695458478822
+url: http://127.0.0.1:8000/api/user/get-system-users
+name: get_admin_list
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: page
+    value: "1"
+    disabled: false
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjgzNDQ0OTgyLCJpYXQiOjE2ODMzNTg1ODIsImp0aSI6IjQyNmY1N2FhOTlhYzQxN2ViNTU5MThjZjc2NDE4NzYzIiwidXNlcl9pZCI6NzIxNDh9.MIzgehm353pOSZwO27kKSbNEbzSatESGizjKQCKWK90
+  prefix: ""
+metaSortKey: -1695458478822
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

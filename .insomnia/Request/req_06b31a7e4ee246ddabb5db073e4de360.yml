@@ -1,0 +1,25 @@
+_id: req_06b31a7e4ee246ddabb5db073e4de360
+type: Request
+parentId: fld_f29eb928da8b44b7a10f9c3a72d9140b
+modified: 1695458478935
+created: 1695458478935
+url: "{{url}}/api/promotion/action/variable"
+name: get all variable
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478935
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

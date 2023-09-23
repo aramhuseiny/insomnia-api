@@ -1,0 +1,41 @@
+_id: req_1f67e72644db49c3bb7f9e1d5a786c3b
+type: Request
+parentId: fld_f3b98d3136f344d7a429760ab200ae93
+modified: 1695458478919
+created: 1695458478919
+url: "{{url}}/api/promotion/action/promoion"
+name: priority update
+description: ""
+method: PATCH
+body:
+  mimeType: ""
+  text: |-
+    [
+        {
+            "id":95,
+            "priority":1
+        },
+        {
+            "id":108,
+            "priority":1
+        },
+        {
+            "id":93,
+            "priority":3
+        }
+    ]
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478919
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

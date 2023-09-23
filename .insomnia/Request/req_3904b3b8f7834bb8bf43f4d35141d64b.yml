@@ -1,0 +1,25 @@
+_id: req_3904b3b8f7834bb8bf43f4d35141d64b
+type: Request
+parentId: fld_0e5d77d5787a4f5c896f028ca80e4df7
+modified: 1695458478910
+created: 1695458478910
+url: "{{url}}/api/config/club/"
+name: all config
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478910
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_11d2761e2cdc40d98b12a9959a8f9d86
+type: Request
+parentId: fld_9f416e8466e84a5d8b506613479c292c
+modified: 1695458478856
+created: 1695458478856
+url: http://127.0.0.1:8000/api/product/admin/import
+name: import product admin
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1695458478856
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

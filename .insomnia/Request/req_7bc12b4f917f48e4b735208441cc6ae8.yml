@@ -1,0 +1,30 @@
+_id: req_7bc12b4f917f48e4b735208441cc6ae8
+type: Request
+parentId: fld_696e821f47db4fbba9b5c96383735505
+modified: 1695458478860
+created: 1695458478860
+url: "{{url}}/api/product/productbaskets/12/"
+name: update product baskets
+description: ""
+method: PUT
+body:
+  mimeType: ""
+  text: |-
+    {
+        "name":"مربی ۲"
+    }
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478860
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

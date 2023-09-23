@@ -1,0 +1,25 @@
+_id: req_a437ec44dce64ab3921a3ea87c250369
+type: Request
+parentId: fld_f0507a8fff054bf1825fbb192233a323
+modified: 1695458478849
+created: 1695458478849
+url: http://127.0.0.1:8000/api/product/order/3/reject
+name: order_reject
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjg0MTQxNzYxLCJpYXQiOjE2ODQwNTUzNjEsImp0aSI6IjE2MTcyNDJmYWJlYzQ5OGU5YjdhNGNiNTNkZWQ3ZmY4IiwidXNlciI6NTg2NTV9.YeCY2TIyvNwK4w1XZCBlWyktIWdmEpySg4PWYJC-AAw
+  prefix: ""
+metaSortKey: -1695458478849
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

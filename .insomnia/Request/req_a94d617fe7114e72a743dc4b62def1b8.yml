@@ -1,0 +1,25 @@
+_id: req_a94d617fe7114e72a743dc4b62def1b8
+type: Request
+parentId: fld_cfe844ec8774428583b439d77ecfc9e6
+modified: 1695458478834
+created: 1695458478834
+url: "{{url}}/api/user/store/point"
+name: user point
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478834
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

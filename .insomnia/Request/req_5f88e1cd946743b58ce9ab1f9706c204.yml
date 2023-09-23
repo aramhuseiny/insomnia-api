@@ -1,0 +1,25 @@
+_id: req_5f88e1cd946743b58ce9ab1f9706c204
+type: Request
+parentId: fld_40a54e50a5004389977be4918660063e
+modified: 1695458478913
+created: 1695458478913
+url: "{{url}}/api/club/action/variable"
+name: get all variable
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478913
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

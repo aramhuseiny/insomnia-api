@@ -1,0 +1,36 @@
+_id: req_ddbf6fa7274a47f09d2a3373c08ac4df
+type: Request
+parentId: fld_f3b98d3136f344d7a429760ab200ae93
+modified: 1695458478918
+created: 1695458478918
+url: "{{url}}/api/promotion/action/8"
+name: update action
+description: ""
+method: PATCH
+body:
+  mimeType: ""
+  text: |-
+    {
+        "maximum_input": -1,
+        "priority": 10,
+        "action_name": "سبد محصول میاونز ببیشتر از ۶ شرینک",
+        "action_category": 4,
+        "start_date": "2023-06-22 15:05:00.000 +0430",
+        "end_date": "2026-06-22 15:05:00.000 +0430",
+        "point_expire": null
+    }
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478918
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

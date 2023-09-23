@@ -1,0 +1,30 @@
+_id: req_18fb6cc3482745a3b5c8248cfd79db4b
+type: Request
+parentId: fld_16785cce80554fb18125d5b05da25019
+modified: 1695458478903
+created: 1695458478903
+url: "{{url}}/api/club/action/type/1"
+name: get all action type
+description: ""
+method: PUT
+body:
+  mimeType: ""
+  text: |-
+    {
+        "name":"point"
+    }
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478903
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

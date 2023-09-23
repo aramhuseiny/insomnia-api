@@ -1,0 +1,25 @@
+_id: req_53e61cca7d3848cd8a2765f6776219f0
+type: Request
+parentId: fld_f3b98d3136f344d7a429760ab200ae93
+modified: 1695458478916
+created: 1695458478916
+url: "{{url}}/api/promotion/action/export/"
+name: all actions export
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478916
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

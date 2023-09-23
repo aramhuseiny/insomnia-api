@@ -1,0 +1,25 @@
+_id: req_badbe96ff32c41ee8bcb332f69c09542
+type: Request
+parentId: fld_31899d9201294d4bafa92bf78ab7d88e
+modified: 1695458478886
+created: 1695458478886
+url: "{{url}}/api/club/action/group/"
+name: New Request
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478886
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

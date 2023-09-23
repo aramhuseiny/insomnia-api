@@ -1,0 +1,25 @@
+_id: req_17cf4e3f2cd4415693e68cb1f3ed19a9
+type: Request
+parentId: fld_bb7238e528bf4678b3841a9583b81d76
+modified: 1695458478831
+created: 1695458478831
+url: http://127.0.0.1:8000/api/user/membershiplevel/action
+name: get users with membership action
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478831
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_c21801f2e97c452e9bc97b6dc9f77e9d
+type: Request
+parentId: fld_33467abc02134ff5aa95e89a9d4d7439
+modified: 1695458478934
+created: 1695458478934
+url: "{{url}}/api/promotion/action/membershiplevelpointgroup"
+name: get decarty
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478934
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

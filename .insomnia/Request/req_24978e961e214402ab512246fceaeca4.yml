@@ -1,0 +1,25 @@
+_id: req_24978e961e214402ab512246fceaeca4
+type: Request
+parentId: fld_38c6062e30cd40f78c5dd6c89e417fb0
+modified: 1695458478837
+created: 1695458478837
+url: "{{url}}/api/user/30000/point"
+name: user points Copy
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478837
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

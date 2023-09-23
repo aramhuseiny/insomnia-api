@@ -1,0 +1,30 @@
+_id: req_d3938f87a8cc47d3b882b8a406dc8551
+type: Request
+parentId: fld_ee3b022ce6cb4920b9790778b95976d1
+modified: 1695458478826
+created: 1695458478826
+url: http://127.0.0.1:8000/api/user/membershiplevel/
+name: delete users from level (move to default level)
+description: ""
+method: DELETE
+body:
+  mimeType: ""
+  text: |-
+    {
+        "user_ids": [3]
+    }
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478826
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

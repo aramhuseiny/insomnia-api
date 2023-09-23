@@ -1,0 +1,31 @@
+_id: req_3885f795cf354d8b9429507bd2a54c8d
+type: Request
+parentId: fld_1012d9361b1f412ea98651fdfd78232b
+modified: 1695458478875
+created: 1695458478875
+url: http://127.0.0.1:8000/api/login/history/active
+name: history
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: type
+    value: active
+    disabled: false
+  - name: customer_id
+    value: "72148"
+    disabled: false
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjgzNzg3OTk3LCJpYXQiOjE2ODM3MDE1OTcsImp0aSI6ImE2MjQwZTA4M2Y4NTQyMzZhZjZjOWI2ZGUzZTI5N2VjIiwidXNlciI6NzIxNDh9.MN2uFxQK900xQFRa7D7iKMovwbvXALyH_QfJJH1br_Q
+  prefix: ""
+metaSortKey: -1695458478875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

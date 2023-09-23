@@ -1,0 +1,25 @@
+_id: req_cfffe10584aa4f1fab744ed87e595847
+type: Request
+parentId: fld_56025c33f4064064ba49d30fb2416087
+modified: 1695458478841
+created: 1695458478841
+url: http://127.0.0.1:8000/api/user/province
+name: get provinces
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjg0MTQxNzYxLCJpYXQiOjE2ODQwNTUzNjEsImp0aSI6IjE2MTcyNDJmYWJlYzQ5OGU5YjdhNGNiNTNkZWQ3ZmY4IiwidXNlciI6NTg2NTV9.YeCY2TIyvNwK4w1XZCBlWyktIWdmEpySg4PWYJC-AAw
+  prefix: ""
+metaSortKey: -1695458478841
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

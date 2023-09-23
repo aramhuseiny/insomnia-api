@@ -1,0 +1,31 @@
+_id: req_a65ab55776044329987837e97658168b
+type: Request
+parentId: fld_0b917e252746455d9a1be8f1fdbe9cce
+modified: 1695458478820
+created: 1695458478820
+url: "{{url}}/api/user/get-customers"
+name: get_customer_list
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: page
+    value: "1"
+    disabled: false
+  - name: key_word
+    value: فروش
+    disabled: false
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478820
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

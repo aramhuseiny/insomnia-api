@@ -1,0 +1,30 @@
+_id: req_cbdaf7484c8a4319ae2167fe158c41de
+type: Request
+parentId: fld_f3b98d3136f344d7a429760ab200ae93
+modified: 1695458478918
+created: 1695458478918
+url: "{{url}}/api/promotion/action/"
+name: delete
+description: ""
+method: DELETE
+body:
+  mimeType: ""
+  text: |-
+    {
+        "id":3
+    }
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478918
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

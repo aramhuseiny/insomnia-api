@@ -1,0 +1,30 @@
+_id: req_c87c3e37a47f4af19bae8237c055c29a
+type: Request
+parentId: fld_16785cce80554fb18125d5b05da25019
+modified: 1695458478902
+created: 1695458478902
+url: "{{url}}/api/club/action/types/"
+name: get all action type Copy
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "name":"promotion"
+    }
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478902
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_448deee2f10d4931a62bb559f0e176fb
+type: Request
+parentId: fld_9b839a841a384914b319117ee2ffe3a5
+modified: 1695458478877
+created: 1695458478877
+url: "{{url}}/api/club/action/export/"
+name: all actions export
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478877
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

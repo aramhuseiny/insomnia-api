@@ -1,0 +1,31 @@
+_id: req_303aae2f9bda4d99b98d4732811bbd88
+type: Request
+parentId: fld_00d8c7834f0249478454f1471cb23068
+modified: 1695458478872
+created: 1695458478872
+url: http://127.0.0.1:8000/api/token/
+name: Login Admin
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "username": "admin",
+        "password": "Apadanadev@1"
+    }
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: ""
+  prefix: ""
+metaSortKey: -1695458478872
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

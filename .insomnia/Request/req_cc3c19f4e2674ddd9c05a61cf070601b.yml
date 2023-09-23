@@ -1,0 +1,40 @@
+_id: req_cc3c19f4e2674ddd9c05a61cf070601b
+type: Request
+parentId: fld_f0507a8fff054bf1825fbb192233a323
+modified: 1695458478848
+created: 1695458478848
+url: http://172.26.2.184:8001/api/product/customer
+name: get_customer_products
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: page
+    value: "1"
+    disabled: false
+  - name: price
+    value: asc
+    disabled: false
+  - name: tracking_factor
+    value: desc
+    disabled: false
+  - name: category
+    value: "1"
+    disabled: false
+  - name: search
+    value: ""
+    disabled: false
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjg0ODQzMzM5LCJpYXQiOjE2ODQ3NTY5MzksImp0aSI6IjAwOTk2OGFlZmRiNDRjMDZiYWUxODFkYzBiMDM3M2JmIiwidXNlciI6MTE3ODd9.UU7-t-ACFDHViwafXVQAqhAz8u4i6c7I1C3IA8FVA8g
+  prefix: ""
+metaSortKey: -1695458478848
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

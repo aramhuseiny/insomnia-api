@@ -1,0 +1,33 @@
+_id: req_cf327380b7c44c2db2d52fe17907d6e1
+type: Request
+parentId: fld_3f851c9103d744c787f4da18c2fb6622
+modified: 1695458478931
+created: 1695458478931
+url: "{{url}}/api/promotion/action/category/"
+name: add action category
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "name":"چند شرطی ها",
+        "event": 2,
+        "start_date": "2023-07-23 13:18:00",
+        "expire_date": "2023-08-22 13:18:00"
+    }
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478931
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

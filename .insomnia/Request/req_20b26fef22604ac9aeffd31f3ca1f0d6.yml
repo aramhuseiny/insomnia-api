@@ -1,0 +1,30 @@
+_id: req_20b26fef22604ac9aeffd31f3ca1f0d6
+type: Request
+parentId: fld_696e821f47db4fbba9b5c96383735505
+modified: 1695458478861
+created: 1695458478861
+url: "{{url}}/api/product/productbaskets/2/"
+name: delete  product basket
+description: ""
+method: DELETE
+body:
+  mimeType: ""
+  text: |-
+    {
+        "name":"مربی ۲"
+    }
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478861
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

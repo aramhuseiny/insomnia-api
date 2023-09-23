@@ -1,0 +1,36 @@
+_id: req_669e58e0bde048ee997d2169c0d45bb9
+type: Request
+parentId: fld_f3b98d3136f344d7a429760ab200ae93
+modified: 1695458478917
+created: 1695458478917
+url: "{{url}}/api/promotion/action/"
+name: create a action
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "maximum_input":"-1",
+        "action_name":"به ازای خرید 7  شیرینک  به بالا ",
+        "action_category": 11,
+        "start_date": "2023-07-23 16:22:00.000 +0330",
+        "end_date":"2023-08-22 16:22:00.000 +0330",
+        "exprire_num_day":95,
+        "priority":null
+    }
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478917
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

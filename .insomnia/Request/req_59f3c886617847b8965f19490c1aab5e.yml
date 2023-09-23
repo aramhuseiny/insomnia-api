@@ -1,0 +1,25 @@
+_id: req_59f3c886617847b8965f19490c1aab5e
+type: Request
+parentId: fld_7fc2f71ae8164c069a849d5323d5cd2d
+modified: 1695458478897
+created: 1695458478897
+url: "{{url}}/api/club/point/show"
+name: show point
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478897
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

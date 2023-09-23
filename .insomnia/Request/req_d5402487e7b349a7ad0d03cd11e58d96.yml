@@ -1,0 +1,31 @@
+_id: req_d5402487e7b349a7ad0d03cd11e58d96
+type: Request
+parentId: fld_bdee884a4bc24217b2144f67f6f9d650
+modified: 1695458478851
+created: 1695458478851
+url: http://127.0.0.1:8000/api/product/order/45/confirm-or-reject
+name: order_confirm_or_reject
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "note": "با توجه به صحبت های انجام شده تغییرات صورت گرفت",
+        "type": "confirm"
+    }
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjg4MzYyNjI4LCJpYXQiOjE2ODgyNzYyMjgsImp0aSI6IjEwMzE3M2UwYmE3ZDQ0Mjk4MjBkNTIwYTFmMjBiYjMyIiwidXNlciI6MTkxOTl9.5kU-z8EH5vmVDZzyC9CHg-RPecZVEp-DzO4IiWy_UIk
+  prefix: ""
+metaSortKey: -1695458478851
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

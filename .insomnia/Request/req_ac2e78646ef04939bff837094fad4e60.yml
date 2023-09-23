@@ -1,0 +1,32 @@
+_id: req_ac2e78646ef04939bff837094fad4e60
+type: Request
+parentId: fld_0fe43d6e7e504267813bdf4ce37b8471
+modified: 1695458478894
+created: 1695458478894
+url: "{{url}}/api/club/action/category/"
+name: update action category
+description: ""
+method: PATCH
+body:
+  mimeType: ""
+  text: |-
+    {
+        "id":3,
+        "name":"مجموع قسمت کل",
+        "event": 1
+    }
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478894
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,69 @@
+_id: req_6ce30691ef8e4d3287dff4a94bf61805
+type: Request
+parentId: fld_90bcff00bb0b4b8c9db06eb6747e2e65
+modified: 1695458478830
+created: 1695458478830
+url: http://127.0.0.1:8000/api/user/membershiplevel/action/promotion/68/
+name: update membership level action Copy
+description: ""
+method: PATCH
+body:
+  mimeType: ""
+  text: |-
+    [
+                    {
+                        "membership_level": 2,
+                        "membership_level_name": "طلایی",
+                        "district": 1,
+                        "group_id": 231,
+                        "group_name": "خرده فروش",
+                        "percent": 5,
+                        "action_id": 68,
+                        "action_name": "سبد محصول مایونز بالای ۵",
+                        "product_promotion": {
+                            "id": 16,
+                            "product_id": 9,
+                            "count": 5
+                        }
+                    },
+                    {
+                        "membership_level": 2,
+                        "membership_level_name": "طلایی",
+                        "district": 1,
+                        "group_id": 240,
+                        "group_name": "تعاونی",
+                        "percent": 1,
+                        "action_id": 68,
+                        "action_name": "سبد محصول مایونز بالای ۵"
+                    },
+                    {
+                        "membership_level": 2,
+                        "membership_level_name": "طلایی",
+                        "district": 1,
+                        "group_id": 242,
+                        "group_name": "هورکا",
+                        "percent": null,
+                        "action_id": 68,
+                        "action_name": "سبد محصول مایونز بالای ۵",
+                        "product_promotion": {
+                            "id": 17,
+                            "product_id": 7,
+                            "count": 3
+                        }
+                    }
+    ]
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478830
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,52 @@
+_id: req_f2bf368101324637890cf86fa5323bec
+type: Request
+parentId: fld_bdee884a4bc24217b2144f67f6f9d650
+modified: 1695458478850
+created: 1695458478850
+url: http://127.0.0.1:8000/api/product/order/39/items/add
+name: order_add_item
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "new_item": [
+            {
+                "count": {
+                    "1": 5,
+                    "6": 0,
+                    "9": 0,
+                    "12": 2,
+                    "24": 1
+                },
+                "product_id": 10004
+            },
+            {
+                "count": {
+                    "1": 8,
+                    "6": 0,
+                    "9": 3,
+                    "12": 0,
+                    "24": 0
+                },
+                "product_id": 10005
+            }
+        ],
+        "discount":1
+    }
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjg4MzYyNjI4LCJpYXQiOjE2ODgyNzYyMjgsImp0aSI6IjEwMzE3M2UwYmE3ZDQ0Mjk4MjBkNTIwYTFmMjBiYjMyIiwidXNlciI6MTkxOTl9.5kU-z8EH5vmVDZzyC9CHg-RPecZVEp-DzO4IiWy_UIk
+  prefix: ""
+metaSortKey: -1695458478850
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

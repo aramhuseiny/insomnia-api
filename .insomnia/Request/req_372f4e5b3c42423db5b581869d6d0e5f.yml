@@ -1,0 +1,37 @@
+_id: req_372f4e5b3c42423db5b581869d6d0e5f
+type: Request
+parentId: fld_9b839a841a384914b319117ee2ffe3a5
+modified: 1695458478879
+created: 1695458478879
+url: "{{url}}/api/club/action/6"
+name: update action
+description: ""
+method: PATCH
+body:
+  mimeType: ""
+  text: |-
+    {
+        "maximum_input":"-1",
+        "action_name":"سبد خرید بالای ۳ ملیون یا خرید بالای ۳.۵ ملیون تومان",
+        "action_category": 2,
+        "start_date": null,
+        "end_date":null,
+        "point_expire":null
+
+
+    }
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478879
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

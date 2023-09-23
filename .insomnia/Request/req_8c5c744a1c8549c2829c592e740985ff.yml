@@ -1,0 +1,25 @@
+_id: req_8c5c744a1c8549c2829c592e740985ff
+type: Request
+parentId: fld_61dddb89ca2141bc9b04e7540d8ac1b4
+modified: 1695458478874
+created: 1695458478874
+url: http://127.0.0.1:8000/api/login/history/active/customer
+name: history
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjgzNjM5MTgyLCJpYXQiOjE2ODM1NTI3ODIsImp0aSI6Ijg1MzU4M2ZjZTkzYTRmYTA5ZTEzNDY0MzVkNDkwOTFjIiwidXNlcl9pZCI6NTg2NTV9.yCcxss4nrscZI7CGcEu7C3l81EO-euLo8abexziuFU8
+  prefix: ""
+metaSortKey: -1695458478874
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

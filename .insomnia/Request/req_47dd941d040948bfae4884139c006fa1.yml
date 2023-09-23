@@ -1,0 +1,32 @@
+_id: req_47dd941d040948bfae4884139c006fa1
+type: Request
+parentId: fld_3f851c9103d744c787f4da18c2fb6622
+modified: 1695458478932
+created: 1695458478932
+url: "{{url}}/api/promotion/action/category/"
+name: update action category
+description: ""
+method: PATCH
+body:
+  mimeType: ""
+  text: |-
+    {
+        "id":43,
+        "name":"مایونز ۱",
+        "event": 1
+    }
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478932
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

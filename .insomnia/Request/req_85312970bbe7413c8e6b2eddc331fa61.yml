@@ -1,0 +1,28 @@
+_id: req_85312970bbe7413c8e6b2eddc331fa61
+type: Request
+parentId: fld_f3b98d3136f344d7a429760ab200ae93
+modified: 1695458478917
+created: 1695458478917
+url: "{{url}}/api/promotion/action"
+name: action detail
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: id
+    value: "7"
+    disabled: false
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478917
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_b991e8da536d4b6c9ad7c68c4b377a6c
+type: Request
+parentId: fld_56025c33f4064064ba49d30fb2416087
+modified: 1695458478840
+created: 1695458478840
+url: http://127.0.0.1:8000/api/user/register/step3/upload/file
+name: get files
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: customer_register_id
+    value: "3"
+    disabled: false
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjgzODA3NDgwLCJpYXQiOjE2ODM3MjEwODAsImp0aSI6IjliNGM3OTcxMzE0ODRkZThhYzc0NjE0ZWMzMmI5MjI5IiwidXNlcl9pZCI6NTg2NTV9.NJrwkU-u-VBh8SWsMPbsACPp-izeRZl5HAsmn3gBmdc
+  prefix: ""
+metaSortKey: -1695458478840
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

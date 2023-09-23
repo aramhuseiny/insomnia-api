@@ -1,0 +1,27 @@
+_id: req_e761766d8c52425e806cc7f24822f038
+type: Request
+parentId: fld_ee3b022ce6cb4920b9790778b95976d1
+modified: 1695458478826
+created: 1695458478826
+url: http://127.0.0.1:8000/api/user/membershiplevel/users/
+name: add member ship level for users
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "user_ids": [3867,2,3],
+        "membership_level": 1
+    }
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1695458478826
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

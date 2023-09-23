@@ -1,0 +1,25 @@
+_id: req_68b78b8775b24e9e855c156379f093a9
+type: Request
+parentId: fld_696e821f47db4fbba9b5c96383735505
+modified: 1695458478861
+created: 1695458478861
+url: "{{url}}/api/product/productbaskets/"
+name: get product baskets
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478861
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

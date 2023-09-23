@@ -1,0 +1,28 @@
+_id: req_9fc7c9024a754871abd30a8c71090c9e
+type: Request
+parentId: fld_31899d9201294d4bafa92bf78ab7d88e
+modified: 1695458478885
+created: 1695458478885
+url: "{{url}}/api/club/event"
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: signal
+    value: buy
+    disabled: false
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478885
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

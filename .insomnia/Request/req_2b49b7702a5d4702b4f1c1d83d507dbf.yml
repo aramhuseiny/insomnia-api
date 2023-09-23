@@ -1,0 +1,31 @@
+_id: req_2b49b7702a5d4702b4f1c1d83d507dbf
+type: Request
+parentId: fld_9b839a841a384914b319117ee2ffe3a5
+modified: 1695458478878
+created: 1695458478878
+url: "{{url}}/api/club/action"
+name: action query export  excel
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: name
+    value: خرید سس حرسی بالای ۳ شرینک
+    disabled: false
+  - name: export
+    value: "true"
+    disabled: false
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478878
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

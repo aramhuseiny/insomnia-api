@@ -1,0 +1,25 @@
+_id: req_234e0123081d44cab1a65bca7bb8f0a1
+type: Request
+parentId: fld_3f851c9103d744c787f4da18c2fb6622
+modified: 1695458478930
+created: 1695458478930
+url: "{{url}}/api/promotion/action/category"
+name: category query set
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478930
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

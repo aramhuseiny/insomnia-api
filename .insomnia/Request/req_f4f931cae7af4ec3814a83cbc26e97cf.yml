@@ -1,0 +1,25 @@
+_id: req_f4f931cae7af4ec3814a83cbc26e97cf
+type: Request
+parentId: fld_f0507a8fff054bf1825fbb192233a323
+modified: 1695458478846
+created: 1695458478846
+url: http://127.0.0.1:8000/api/product/order
+name: store orders
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478846
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

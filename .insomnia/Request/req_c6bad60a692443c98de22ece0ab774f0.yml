@@ -1,0 +1,25 @@
+_id: req_c6bad60a692443c98de22ece0ab774f0
+type: Request
+parentId: fld_dc3f47088c7b4184bba3b73cf3a0fa77
+modified: 1695458478928
+created: 1695458478928
+url: "{{url}}/api/promotion/condition"
+name: get all condition
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478928
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
