@@ -1,0 +1,25 @@
+_id: req_c60f03691b4049c48286ec03243e6b3a
+type: Request
+parentId: wrk_6b74b61828fc468a8f4f0e6b8deed454
+modified: 1689591859516
+created: 1689591854784
+url: http://172.26.5.35/sgdev/Services/AddressManagementWebService.svc/GetRegionalDivisionList
+name: get all reagons
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1689590945249
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,63 @@
+_id: req_ff243b2cce484adb85217ebb9884c2f4
+type: Request
+parentId: wrk_6b74b61828fc468a8f4f0e6b8deed454
+modified: 1689595460832
+created: 1689590945349
+url: http://172.26.5.35/sgdev/Sales/PartyManagement/Services/PartyManagementService.svc/PlaceCustomer
+name: create new customer
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"Addresses":[{
+    		"CityRef":23,
+    		"Details":"ssss",
+    		"Email":"asdazsd@asdasd.asd",
+    		"Fax":"66587478",
+    		"IsDefault":true,
+    		"Location":{
+    			"Latitude":"1",
+    			"Longitude":"1"
+    		},
+    		"Name":"sina",
+    		"Tel":"02155857845",
+    		"Type":3,
+    		"ZipCode":"6681848654"
+    	}],
+    	"CurrencyRef":1,
+    	"DeclarationDate":"\/Date(928133400000+0430)\/",
+    	"EconomicCode":"",
+    	"ExchangeCode":"String content",
+    	"IsExportCustomer":false,
+    	"Number":"13456",
+    	"Party":{
+    		"BirthCertificateNumber":"123",
+    		"BirthDate":"\/Date(928133400000+0430)\/",
+    		"CompanyName":"sina Food",
+    		"CompanyRegisterationCode":"132654",
+    		"FatherName":"sina",
+    		"FirstName":"sina",
+    		"LastName":"sina",
+    		"Mobile":"09363057412",
+    		"NationalID":"0016116461",
+    		"Type":1
+    	},
+    	"SalesOfficeIDs":[1],
+    	"SecondCode":"123",
+    	"Type":1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1689590945349
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

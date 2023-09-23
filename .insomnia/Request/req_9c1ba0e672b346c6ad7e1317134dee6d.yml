@@ -1,0 +1,28 @@
+_id: req_9c1ba0e672b346c6ad7e1317134dee6d
+type: Request
+parentId: wrk_6b74b61828fc468a8f4f0e6b8deed454
+modified: 1692644785866
+created: 1692644740304
+url: http://127.0.0.1:8000/api/baseauth
+name: New Request
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.5
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: test
+  password: pass
+metaSortKey: -1692644740304
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

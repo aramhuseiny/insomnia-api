@@ -1,0 +1,25 @@
+_id: req_37e4a747f4074a479e42792e03b0e3fe
+type: Request
+parentId: wrk_6b74b61828fc468a8f4f0e6b8deed454
+modified: 1689591676691
+created: 1689591665283
+url: http://172.26.5.35/sgdev/General/CurrencyManagement/Services/CurrencyWebService.svc/GetAllCurrencies
+name: get currencies
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1689590945299
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
