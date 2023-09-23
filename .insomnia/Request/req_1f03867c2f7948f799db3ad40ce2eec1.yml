@@ -1,0 +1,25 @@
+_id: req_1f03867c2f7948f799db3ad40ce2eec1
+type: Request
+parentId: fld_7df06b8bf5df425abd88a410ac3b1108
+modified: 1695458478846
+created: 1695458478846
+url: "{{url}}/api/product/basket/show"
+name: show
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478846
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

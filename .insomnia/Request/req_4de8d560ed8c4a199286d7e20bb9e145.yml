@@ -1,0 +1,25 @@
+_id: req_4de8d560ed8c4a199286d7e20bb9e145
+type: Request
+parentId: fld_408bc88c1c0f4357a3ed5d667347c0e4
+modified: 1695458478898
+created: 1695458478898
+url: "{{url}}/api/club/point/amount"
+name: get all point amount
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478898
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

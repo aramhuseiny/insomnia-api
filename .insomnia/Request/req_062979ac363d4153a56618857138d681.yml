@@ -1,0 +1,25 @@
+_id: req_062979ac363d4153a56618857138d681
+type: Request
+parentId: fld_38c6062e30cd40f78c5dd6c89e417fb0
+modified: 1695458478839
+created: 1695458478839
+url: http://127.0.0.1:8000/api/user/get-user
+name: get-user
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjg4MzYyNjI4LCJpYXQiOjE2ODgyNzYyMjgsImp0aSI6IjEwMzE3M2UwYmE3ZDQ0Mjk4MjBkNTIwYTFmMjBiYjMyIiwidXNlciI6MTkxOTl9.5kU-z8EH5vmVDZzyC9CHg-RPecZVEp-DzO4IiWy_UIk
+  prefix: ""
+metaSortKey: -1695458478839
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_925b1a4388a342a59f8b096fb8a02c1a
+type: Request
+parentId: fld_40a54e50a5004389977be4918660063e
+modified: 1695458767221
+created: 1695458478914
+url: "{{ _.url }}/api/docs/"
+name: test function
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478914
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

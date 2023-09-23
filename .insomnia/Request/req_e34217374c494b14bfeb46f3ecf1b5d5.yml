@@ -1,0 +1,30 @@
+_id: req_e34217374c494b14bfeb46f3ecf1b5d5
+type: Request
+parentId: fld_bdee884a4bc24217b2144f67f6f9d650
+modified: 1695458478852
+created: 1695458478852
+url: http://127.0.0.1:8000/api/product/order/items
+name: get order-itmes
+description: ""
+method: GET
+body:
+  params: []
+  mimeType: multipart/form-data
+parameters:
+  - name: order_id
+    value: "4 "
+    disabled: false
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjgzNTI0Nzc4LCJpYXQiOjE2ODM0MzgzNzgsImp0aSI6IjA2MmRiZGU2M2E0ZTRmZGI5Mzk3MDk2Zjk2MjkzZmFhIiwidXNlcl9pZCI6NzIxNDh9.MP9tUZTCpeFMirHyaJFHmtzaZ-nFJb2DcDA9YhEpEg4
+  prefix: ""
+metaSortKey: -1695458478852
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

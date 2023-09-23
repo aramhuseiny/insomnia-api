@@ -1,0 +1,25 @@
+_id: req_5253220015694bfaab341622a318ad97
+type: Request
+parentId: fld_a00c72f3b57d440bad80ee2da7af6747
+modified: 1695458478883
+created: 1695458478883
+url: "{{url}}/api/club/action/condition/91/"
+name: delete condition
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478883
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

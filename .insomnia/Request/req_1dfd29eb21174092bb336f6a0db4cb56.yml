@@ -1,0 +1,41 @@
+_id: req_1dfd29eb21174092bb336f6a0db4cb56
+type: Request
+parentId: fld_0e5d77d5787a4f5c896f028ca80e4df7
+modified: 1695458478908
+created: 1695458478908
+url: "{{url}}/api/config/club/"
+name: update config
+description: ""
+method: PUT
+body:
+  mimeType: ""
+  text: |-
+    [
+       {
+                "id": 2,
+                "key": "point",
+                "value": "1000000",
+                "type": "text"
+            },
+            {
+                "id": 1,
+                "key": "max_use_point_percent",
+                "value": "60",
+                "type": "slider"
+            }
+    ]
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478908
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

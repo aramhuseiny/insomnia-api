@@ -1,0 +1,31 @@
+_id: req_ebe72fa5bb2745af8d641e1e51b9203a
+type: Request
+parentId: fld_0e5d77d5787a4f5c896f028ca80e4df7
+modified: 1695458478907
+created: 1695458478907
+url: "{{url}}/api/config/club/"
+name: add new config
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "key":"point",
+        "value":1000000
+    }
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478907
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

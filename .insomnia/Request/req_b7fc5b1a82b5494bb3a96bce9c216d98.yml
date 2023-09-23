@@ -1,0 +1,34 @@
+_id: req_b7fc5b1a82b5494bb3a96bce9c216d98
+type: Request
+parentId: fld_7df06b8bf5df425abd88a410ac3b1108
+modified: 1695458478844
+created: 1695458478844
+url: http://127.0.0.1:8000/api/product/basket/decrement
+name: decrement
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "basket": 
+            {
+                "product_id": 1
+            }
+          
+    }
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjg5NzU1ODQ2LCJpYXQiOjE2ODk2Njk0NDYsImp0aSI6IjIyMWYwNGY4MTVmOTQ2MWNhNDFlZDA5ZmRlMTAyYzk3IiwidXNlciI6Mzg2N30.glq0IsHDm5ybLBzCEXdolqvZtch9Aaqo8mbTfdzYS_E
+  prefix: ""
+metaSortKey: -1695458478844
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

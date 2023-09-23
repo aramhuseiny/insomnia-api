@@ -1,0 +1,30 @@
+_id: req_d93cb2a207624a748546fdbbd30d6a2f
+type: Request
+parentId: fld_2c943b49ae6f40b8a1112258d48af8f7
+modified: 1695458478873
+created: 1695458478873
+url: http://127.0.0.1:8000/api/token/refresh/
+name: token_refresh
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: >-
+    {
+        "refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY4Mzg2OTQ5NiwiaWF0IjoxNjgzNjEwMjk2LCJqdGkiOiI0NzA4YTFkYzk2ZGM0MmIwOTk0ZjcyZjNmNDA4MTIzYyIsInVzZXJfaWQiOjU4NjU1fQ.PrcKiRj_tgyZhHlcOJpFz8n1XK-dDxhVcwjHlicIs9M"
+    }
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: ""
+  prefix: ""
+metaSortKey: -1695458478873
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

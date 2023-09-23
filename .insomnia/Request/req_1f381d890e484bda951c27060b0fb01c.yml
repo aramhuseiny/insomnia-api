@@ -1,0 +1,25 @@
+_id: req_1f381d890e484bda951c27060b0fb01c
+type: Request
+parentId: fld_38c6062e30cd40f78c5dd6c89e417fb0
+modified: 1695458478838
+created: 1695458478838
+url: "{{url}}/api/user/points"
+name: users point
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478838
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

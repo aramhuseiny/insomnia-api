@@ -1,0 +1,25 @@
+_id: req_a2d459a7eaac493bb6f6853e9b3e7f83
+type: Request
+parentId: fld_16785cce80554fb18125d5b05da25019
+modified: 1695458478901
+created: 1695458478901
+url: "{{url}}/api/club/action/types"
+name: get all action type
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478901
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

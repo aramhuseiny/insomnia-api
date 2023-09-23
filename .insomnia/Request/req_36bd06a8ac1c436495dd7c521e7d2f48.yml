@@ -1,0 +1,26 @@
+_id: req_36bd06a8ac1c436495dd7c521e7d2f48
+type: Request
+parentId: fld_ee3b022ce6cb4920b9790778b95976d1
+modified: 1695458478824
+created: 1695458478824
+url: http://127.0.0.1:8000/api/user/membershiplevel/1
+name: update membership level
+description: ""
+method: PUT
+body:
+  mimeType: ""
+  text: |-2
+            {
+                "level_name": "2پلاتنیوم"
+            }
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1695458478824
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

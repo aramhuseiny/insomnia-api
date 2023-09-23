@@ -1,0 +1,37 @@
+_id: req_3e09850737e241689cf3dd65d76e1a08
+type: Request
+parentId: fld_bb7238e528bf4678b3841a9583b81d76
+modified: 1695458478832
+created: 1695458478832
+url: http://127.0.0.1:8000/api/user/membershiplevel/action/36
+name: add member ship level point action
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    [
+        {
+            "membership_level": 1,
+            "point_value": 12
+        },
+        {
+            "membership_level":2,
+            "point_value": 12
+        },
+        {
+            "membership_level": 3,
+            "point_value": 12
+        }
+    ]
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1695458478832
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

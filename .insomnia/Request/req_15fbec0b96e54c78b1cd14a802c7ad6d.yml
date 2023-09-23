@@ -1,0 +1,31 @@
+_id: req_15fbec0b96e54c78b1cd14a802c7ad6d
+type: Request
+parentId: fld_ee3b022ce6cb4920b9790778b95976d1
+modified: 1695458478825
+created: 1695458478825
+url: http://127.0.0.1:8000/api/user/membershiplevel/
+name: add member ship level
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "level_name":"testrrr",
+        "user_ids": [3867,2,3]
+    }
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478825
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

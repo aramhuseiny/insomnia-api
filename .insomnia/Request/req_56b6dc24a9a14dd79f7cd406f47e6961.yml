@@ -1,0 +1,31 @@
+_id: req_56b6dc24a9a14dd79f7cd406f47e6961
+type: Request
+parentId: fld_bdee884a4bc24217b2144f67f6f9d650
+modified: 1695458478852
+created: 1695458478852
+url: http://127.0.0.1:8000/api/product/customer
+name: get_customer_products
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: customer_id
+    value: "27227"
+    disabled: false
+  - name: page
+    value: "1"
+    disabled: false
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjgzNjE0OTczLCJpYXQiOjE2ODM1Mjg1NzMsImp0aSI6IjYxZTY3MzcxYjE5ZTQzODBhMzUyZGMzNGE0YmIzMmY0IiwidXNlcl9pZCI6NzIxNDh9.BlU-4q0lKBkUflyfZ-H5THC8ZvfpdsUxlysdKNvm-m0
+  prefix: ""
+metaSortKey: -1695458478852
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

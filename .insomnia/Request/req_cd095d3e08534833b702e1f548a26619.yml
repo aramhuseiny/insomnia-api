@@ -1,0 +1,27 @@
+_id: req_cd095d3e08534833b702e1f548a26619
+type: Request
+parentId: fld_f0507a8fff054bf1825fbb192233a323
+modified: 1695458478848
+created: 1695458478848
+url: http://127.0.0.1:8000/api/product/category
+name: get categories
+description: ""
+method: GET
+body:
+  params: []
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjgzNDQyMzYzLCJpYXQiOjE2ODMzNTU5NjMsImp0aSI6ImJiZDVmNmU3MzNlNzRlYWJiM2Q4ZTM5YTFjMmQyM2UwIiwidXNlcl9pZCI6NTg2NTV9.HkThtB8xsi8nq13sqtOfq1rhNjl1v2dWvef7STbK3h0
+  prefix: ""
+metaSortKey: -1695458478848
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

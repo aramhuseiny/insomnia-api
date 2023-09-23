@@ -1,0 +1,26 @@
+_id: req_98dd94f6019a486eb18560950a800a51
+type: Request
+parentId: fld_358371e039c44205bd6db9c1b0de0b65
+modified: 1695458478815
+created: 1695458478815
+url: http://127.0.0.1:8000/api/user/register/step1
+name: register_step1
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "mobile": "09010954366"
+    }
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1695458478815
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

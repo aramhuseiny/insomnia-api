@@ -1,0 +1,41 @@
+_id: req_4574a7ce77fc47d7bf21d803e33817d4
+type: Request
+parentId: fld_bb7238e528bf4678b3841a9583b81d76
+modified: 1695458478833
+created: 1695458478833
+url: http://127.0.0.1:8000/api/user/membershiplevel/action/44
+name: update membership level action
+description: ""
+method: PATCH
+body:
+  mimeType: ""
+  text: |-
+    [
+        {
+            "membership_level": 1,
+                "point_value": 95
+        },
+        {
+            "membership_level": 2,
+                "point_value": 85
+        },
+        {
+            "membership_level": 3,
+                "point_value": 75
+        }
+    ]
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478833
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

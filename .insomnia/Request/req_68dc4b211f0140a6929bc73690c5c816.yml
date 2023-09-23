@@ -1,0 +1,25 @@
+_id: req_68dc4b211f0140a6929bc73690c5c816
+type: Request
+parentId: fld_696e821f47db4fbba9b5c96383735505
+modified: 1695458478862
+created: 1695458478862
+url: "{{url}}/api/product/productbaskets/5"
+name: get custom product basket
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478862
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

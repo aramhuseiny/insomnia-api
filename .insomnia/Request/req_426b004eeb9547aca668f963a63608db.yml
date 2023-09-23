@@ -1,0 +1,37 @@
+_id: req_426b004eeb9547aca668f963a63608db
+type: Request
+parentId: fld_9b839a841a384914b319117ee2ffe3a5
+modified: 1695458478879
+created: 1695458478879
+url: "{{url}}/api/club/action/"
+name: create a action
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "maximum_input":"-1",
+        "action_name":"تخفیف خرید بالای ۳ ملیون",
+        "action_category": 9,
+        "start_date": null,
+        "end_date":null,
+        "point_expire":null
+
+
+    }
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478879
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

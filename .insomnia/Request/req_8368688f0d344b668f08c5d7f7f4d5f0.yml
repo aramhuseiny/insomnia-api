@@ -1,0 +1,46 @@
+_id: req_8368688f0d344b668f08c5d7f7f4d5f0
+type: Request
+parentId: fld_90bcff00bb0b4b8c9db06eb6747e2e65
+modified: 1695458478829
+created: 1695458478829
+url: "{{url}}/api/user/membershiplevel/action/95/promotion"
+name: add member ship level promotion action
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    [
+        {
+            "membership_level": 1,
+            "district" : 1,
+            "group":1,
+            "percent":5,
+            "action":95
+        },
+        {
+            "membership_level": 2,
+            "district" : 1,
+            "group":1,
+            "action":95,
+            "product_promotion":{
+                "product":1,
+                "count":2
+            }
+        }
+    ]
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjkwMzc4NDA3LCJpYXQiOjE2OTAyOTIwMDcsImp0aSI6IjU0NzliNjRhOGVkZTQwYTI5YWFhMGViZDM4ZTc2MmNiIiwidXNlciI6MTkxOTl9.LfMiJlzI6l4VGMzL_9WMmOdf3xeqNRCNPnm6R76AW2A
+  prefix: ""
+metaSortKey: -1695458478829
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

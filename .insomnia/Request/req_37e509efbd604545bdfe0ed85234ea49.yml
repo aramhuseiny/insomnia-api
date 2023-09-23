@@ -1,0 +1,48 @@
+_id: req_37e509efbd604545bdfe0ed85234ea49
+type: Request
+parentId: fld_5181c2440ebd40cfa45579483c7f288a
+modified: 1695458478939
+created: 1695458478939
+url: http://127.0.0.1:8000/api/payment/
+name: store
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "order_id":2,
+        "payment": [
+            {
+                "type": "POINT",
+                "data": {
+                    "point_value": 3,
+                    "description": "توضیحات دلخواه"
+                }
+            },
+            {
+                "type": "ONLINE",
+                "data": {
+                    "company_id": "2",
+                    "amount": "100000",
+                    "gateway": "BMI",
+                    "mobile": "09010954366"
+                }
+            }
+        ]
+    }
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478939
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

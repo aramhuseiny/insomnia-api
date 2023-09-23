@@ -1,0 +1,25 @@
+_id: req_202882da0df243a8b593397e32d1026d
+type: Request
+parentId: fld_ace21fac95cb45cdb8be62ca9fb6501d
+modified: 1695458478926
+created: 1695458478926
+url: "{{url}}/api/promotion/action/group/"
+name: New Request
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478926
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

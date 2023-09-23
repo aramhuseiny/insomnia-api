@@ -1,0 +1,30 @@
+_id: req_98faafe972dc4b13a8b97872c96ff082
+type: Request
+parentId: fld_9b839a841a384914b319117ee2ffe3a5
+modified: 1695458478880
+created: 1695458478880
+url: "{{url}}/api/club/action/"
+name: delete action
+description: ""
+method: DELETE
+body:
+  mimeType: ""
+  text: |-
+    {
+        "id":3
+    }
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478880
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

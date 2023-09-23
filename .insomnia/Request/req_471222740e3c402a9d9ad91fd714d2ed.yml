@@ -1,0 +1,27 @@
+_id: req_471222740e3c402a9d9ad91fd714d2ed
+type: Request
+parentId: fld_ee3b022ce6cb4920b9790778b95976d1
+modified: 1695458478827
+created: 1695458478827
+url: http://127.0.0.1:8000/api/user/membershiplevel/users/
+name: update user level
+description: ""
+method: PATCH
+body:
+  mimeType: ""
+  text: |-
+    {
+        "id":19199,
+        "membership_level":2
+    }
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1695458478827
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,58 @@
+_id: req_e02aa496b01a42c18a3bc160f984906e
+type: Request
+parentId: fld_bdee884a4bc24217b2144f67f6f9d650
+modified: 1695458478851
+created: 1695458478851
+url: "{{url}}/api/product/order/all-customers"
+name: get orders (admin)
+description: ""
+method: GET
+body:
+  params:
+    - type: text
+      name: category
+      disabled: true
+      value: name
+    - type: text
+      name: date_range
+      disabled: true
+      value: 2023-09-06 03:44:01,2023-09-06 03:44:01
+    - type: text
+      name: start_date
+      disabled: true
+      value: 2023-09-06 03:44:01
+    - type: text
+      name: end_date
+      disabled: true
+      value: 2023-09-06 03:44:01
+    - type: text
+      name: sort_column
+      disabled: true
+      value: column_name
+    - type: text
+      name: sort_type
+      disabled: true
+      value: asc or desc
+    - type: text
+      name: keyword
+      disabled: true
+      value: name for seach like
+  mimeType: multipart/form-data
+parameters:
+  - name: page
+    value: "2"
+    disabled: false
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478851
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_1038b5abd0f74f4588ea56092acec7bf
+type: Request
+parentId: fld_0fe43d6e7e504267813bdf4ce37b8471
+modified: 1695458478892
+created: 1695458478892
+url: "{{url}}/api/club/action/category"
+name: category query set
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: page
+    value: "1"
+    disabled: false
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478892
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,35 @@
+_id: req_c76d34e54ded4eb8bc210862d79f90ce
+type: Request
+parentId: fld_7df06b8bf5df425abd88a410ac3b1108
+modified: 1695458478843
+created: 1695458478843
+url: http://127.0.0.1:8000/api/product/basket/add
+name: add
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "basket": 
+            {
+                "count":30,
+                "product_id": 7
+            }
+          
+    }
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478843
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

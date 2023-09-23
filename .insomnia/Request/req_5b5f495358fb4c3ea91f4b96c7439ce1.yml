@@ -1,0 +1,32 @@
+_id: req_5b5f495358fb4c3ea91f4b96c7439ce1
+type: Request
+parentId: fld_3f851c9103d744c787f4da18c2fb6622
+modified: 1695458478932
+created: 1695458478932
+url: "{{url}}/api/promotion/action/category/85"
+name: delete promotion category
+description: ""
+method: DELETE
+body:
+  mimeType: ""
+  text: |-
+    {
+        "id":43,
+        "name":"مایونز ۱",
+        "event": 1
+    }
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478932
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

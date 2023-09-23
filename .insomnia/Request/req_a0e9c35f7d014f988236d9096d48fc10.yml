@@ -1,0 +1,25 @@
+_id: req_a0e9c35f7d014f988236d9096d48fc10
+type: Request
+parentId: fld_f275847afe1044238b4a381c77c22caa
+modified: 1695458478865
+created: 1695458478865
+url: http://127.0.0.1:8000/api/product/visit
+name: visitor
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjg1MjcwMzU5LCJpYXQiOjE2ODUxODM5NTksImp0aSI6ImYyMzI2ODUxMjIyODQ1ZmJhMTA1YTNjN2Y2ZWQyMDU0IiwidXNlciI6Mzg2N30.FTwpRPoowlTSfjRqQJDo3KqXwwwjMYqXfgKyvzt_qBc
+  prefix: ""
+metaSortKey: -1695458478865
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

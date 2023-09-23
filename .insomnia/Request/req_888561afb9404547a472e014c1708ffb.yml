@@ -1,0 +1,25 @@
+_id: req_888561afb9404547a472e014c1708ffb
+type: Request
+parentId: fld_ace21fac95cb45cdb8be62ca9fb6501d
+modified: 1695458478926
+created: 1695458478926
+url: "{{url}}/api/promotion/event"
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478926
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

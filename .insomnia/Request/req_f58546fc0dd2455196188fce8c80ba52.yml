@@ -1,0 +1,30 @@
+_id: req_f58546fc0dd2455196188fce8c80ba52
+type: Request
+parentId: fld_16785cce80554fb18125d5b05da25019
+modified: 1695458478904
+created: 1695458478904
+url: "{{url}}/api/club/action/type/1"
+name: delete
+description: ""
+method: DELETE
+body:
+  mimeType: ""
+  text: |-
+    {
+        "name":"point"
+    }
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478904
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

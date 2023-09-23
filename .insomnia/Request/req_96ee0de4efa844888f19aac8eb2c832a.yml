@@ -1,0 +1,28 @@
+_id: req_96ee0de4efa844888f19aac8eb2c832a
+type: Request
+parentId: fld_36225e9577b842f3b514aaf28b7aaef6
+modified: 1695458478869
+created: 1695458478869
+url: https://backend.dev.apadana.local/api/token/
+name: token_verify
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "username": "09184021586",
+        "password": "6595",
+        "is_otp": "True"
+    }
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1695458478869
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

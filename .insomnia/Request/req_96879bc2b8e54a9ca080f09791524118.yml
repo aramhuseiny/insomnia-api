@@ -1,0 +1,49 @@
+_id: req_96879bc2b8e54a9ca080f09791524118
+type: Request
+parentId: fld_4186f28e91784d799aed1e0c02eb4b66
+modified: 1695458478921
+created: 1695458478921
+url: "{{url}}/api/promotion/action/condition/7/"
+name: upadte condition
+description: ""
+method: PUT
+body:
+  mimeType: ""
+  text: |-
+    [
+         [
+             
+            {
+                "condition": 7,
+                "entity_value":1,
+                "variable": 7,
+                "amount": 9,
+                "tag":"A"
+            }
+        ],
+        [
+            {
+                "condition": 7,
+                "entity_value":1,
+                "variable": 7,
+                "amount": 5,
+                "tag":"D"
+            }
+        ]
+      
+    ]
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478921
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

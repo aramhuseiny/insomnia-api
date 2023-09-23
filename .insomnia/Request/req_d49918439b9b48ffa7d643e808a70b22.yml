@@ -1,0 +1,28 @@
+_id: req_d49918439b9b48ffa7d643e808a70b22
+type: Request
+parentId: fld_0b917e252746455d9a1be8f1fdbe9cce
+modified: 1695458478821
+created: 1695458478821
+url: http://127.0.0.1:8000/api/user/registered-show
+name: registered_users
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: page
+    value: "1"
+    disabled: false
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjg3MjQ1MjYzLCJpYXQiOjE2ODcxNTg4NjMsImp0aSI6IjA4MTQxODc1M2VhNDQ1OTk5MTZiZWYwNWViNDMzOTJkIiwidXNlciI6OX0.4UBg4r92ivLe0vCEYTxYcSmArlw-DGrjQUIVarfiDFA
+  prefix: ""
+metaSortKey: -1695458478821
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,40 @@
+_id: req_1d6574d93b9a42c7b53a6cf29a87056a
+type: Request
+parentId: fld_358371e039c44205bd6db9c1b0de0b65
+modified: 1695458478817
+created: 1695458478817
+url: http://127.0.0.1:8000/api/user/register/step3
+name: register_step3
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "mobile":"09010954366",
+        "first_name": "حسام",
+        "last_name": "سن",
+        "type_customer":"real",
+        "national_code": "0850087392",
+        "addresses": [
+            {
+            "province": "2",
+            "city": "25",
+            "tel": "25",
+            "address": "ابتدای خیابان مطهری",
+            "postal_code": 465464
+            }
+
+        ]
+    }
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1695458478817
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

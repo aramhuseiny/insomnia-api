@@ -1,0 +1,33 @@
+_id: req_9e1a8bcd84264df0b3757c5b5a522f20
+type: Request
+parentId: fld_0fe43d6e7e504267813bdf4ce37b8471
+modified: 1695458478893
+created: 1695458478893
+url: "{{url}}/api/club/action/category/"
+name: add action category
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "name":"تعداد خرید محصول خاص",
+        "event": 2,
+        "start_date": null,
+        "expire_date": null
+    }
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478893
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

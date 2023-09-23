@@ -1,0 +1,32 @@
+_id: req_9c2154e2a915411aad65c53c9509a9c2
+type: Request
+parentId: fld_7fc2f71ae8164c069a849d5323d5cd2d
+modified: 1695458478896
+created: 1695458478896
+url: "{{url}}/api/club/point/usepoint"
+name: use user point
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "user": 3867,
+        "point_value": 3,
+        "status": "تخفیف در  سبد خرید"
+    }
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478896
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

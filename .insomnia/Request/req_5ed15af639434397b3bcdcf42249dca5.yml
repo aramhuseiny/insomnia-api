@@ -1,0 +1,21 @@
+_id: req_5ed15af639434397b3bcdcf42249dca5
+type: Request
+parentId: fld_ee3b022ce6cb4920b9790778b95976d1
+modified: 1695458478823
+created: 1695458478823
+url: http://127.0.0.1:8000/api/user/membershiplevel
+name: get membership levels
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1695458478823
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

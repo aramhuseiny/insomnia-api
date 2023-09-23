@@ -1,0 +1,30 @@
+_id: req_e5a0f0f4b26f4e1fbf775d152bf8b358
+type: Request
+parentId: fld_696e821f47db4fbba9b5c96383735505
+modified: 1695458478858
+created: 1695458478858
+url: "{{url}}/api/product/productbaskets/"
+name: add product baskets
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "name":"سبد خرید ۲"
+    }
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1695458478858
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
